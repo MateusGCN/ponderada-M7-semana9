@@ -11,3 +11,12 @@ Definimos conhecimento mundial invariante ao tempo como a informação presente 
 
 ### Novo Corpus de Texto para Modelagem de Linguagem
 Para que os LMs renovem seu conhecimento interno, eles precisam ser continuamente pré-treinados em um novo corpus de texto D1 que possui informações atualizadas e novas. Idealmente, D1 deve ser muito menor do que D0, pois um D1 grande, equivalente ao tamanho de D0, resultará em custos computacionais massivos, semelhantes a treinar os LMs do zero. Para construir D1, rastreamos artigos de notícias recentemente publicados na web, criando o CC-RECENTNEWS.
+
+## diagrama
+![Diagrama de Blocos](./imgs/arquitetura_v2.png)
+
+## Conslução
+A evolução dos Modelos de Linguagem, como T5 e GPT-3, destaca a necessidade de atualizações constantes. Eles são potentes, mas enfrentam desafios na retenção de informações permanentes. A ideia de medir e manter esses conhecimentos é vital para otimizar seu desempenho no futuro. Implementar isso requer um esforço considerável, mas é crucial para manter a relevância e precisão dos modelos.
+
+## Referências
+1. JANG, J. et al. TOWARDS CONTINUAL KNOWLEDGE LEARNING OF LANGUAGE MODELS. [s.l: s.n.]. Disponível em: https://arxiv.org/pdf/2110.03215.pdf. Acesso em: 02 out. 2023. ‌
